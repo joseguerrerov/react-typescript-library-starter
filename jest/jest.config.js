@@ -1,9 +1,9 @@
 module.exports = {
   "roots": [
-    "<rootDir>/src"
+    "../src"
   ],
   "setupFiles": [
-    "<rootDir>/setupTests.ts",
+    "./setupTests.ts",
   ],
   "transform": {
     "^.+\\.tsx?$": "ts-jest",
@@ -11,7 +11,7 @@ module.exports = {
   "globals": {
     "ts-jest": {
       "babelConfig": true,
-      "tsConfig": 'jest.tsconfig.json'
+      "tsConfig": 'jest/jest.tsconfig.json'
     }
   },
   "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",

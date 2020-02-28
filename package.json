@@ -13,7 +13,7 @@
     "build": "bash ./scripts/build.sh",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "dedup": "rm -rf node_modules/@types/react-native",
-    "test": "jest --maxWorkers=4",
+    "test": "jest --maxWorkers=4 --config ./jest/jest.config.js",
     "postinstall": "npm run dedup"
   },
   "peerDependencies": {
