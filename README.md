@@ -1,1 +1,1 @@
-react-typescript-library-starter
+# storybook-ts-design-system-starter

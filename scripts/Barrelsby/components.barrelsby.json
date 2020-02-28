@@ -1,0 +1,12 @@
+{
+  "delete": true,
+  "directory": "src/Components",
+  "verbose": true,
+  "singleQuotes": true,
+  "exclude": [
+    "test.tsx",
+    "test.ts",
+    "stories.tsx",
+    "types.d.ts"
+  ]
+}

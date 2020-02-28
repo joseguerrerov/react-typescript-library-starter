@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-react-hooks"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "**/*.js"
+    ]
+  },
+  "rules": {
+    "indent": [true, "spaces", 2],
+    "jsx-no-multiline-js": false,
+    "jsx-boolean-value": false,
+    "member-access": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": true,
+    "trailing-comma": true,
+    "interface-name": true,
+    "no-unused-expression": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-variable": true,
+    "no-require-imports": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-floating-promises": false,
+    "jsx-no-lambda": false,
+    "react-hooks-nesting": "error",
+    "no-console": false
+  }
+}
