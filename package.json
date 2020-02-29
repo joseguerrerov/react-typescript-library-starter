@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-library-starter",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "main": "index.js",
   "types": "index.d.ts",
   "module": "index.es.js",
@@ -24,7 +24,8 @@
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "dedup": "rm -rf node_modules/@types/react-native",
     "test": "jest --maxWorkers=4 --config ./jest/jest.config.js",
-    "postinstall": "npm run dedup"
+    "postinstall": "npm run dedup",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -82,7 +83,8 @@
     "tslint-react": "^4.2.0",
     "tslint-react-hooks": "^2.2.1",
     "typescript": "3.2.4",
-    "yarn-deduplicate": "^1.1.1"
+    "yarn-deduplicate": "^1.1.1",
+    "semantic-release": "^17.0.4"
   },
   "dependencies": {
     "flexcontainer": "^1.0.2",
