@@ -5,6 +5,15 @@
   "types": "index.d.ts",
   "module": "index.es.js",
   "jsnext:main": "index.es.js",
+  "author": {
+    "name": "Jose Guerrero",
+    "email": "josevinguerrero@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joseguerrerov/react-typescript-library-starter.git"
+  },
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
