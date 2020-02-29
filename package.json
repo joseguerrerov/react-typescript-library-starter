@@ -15,6 +15,7 @@
     "url": "https://github.com/joseguerrerov/react-typescript-library-starter.git"
   },
   "scripts": {
+    "commit": "npx git-cz",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "generate-barrels": "bash ./scripts/generate-barrels.sh",
