@@ -1,12 +1,13 @@
 name: Check
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - 'master'   
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [12.13.0]
