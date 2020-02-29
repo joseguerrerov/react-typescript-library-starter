@@ -1,4 +1,4 @@
-name: ON PUSH
+name: Check
 
 on: [push]
 
