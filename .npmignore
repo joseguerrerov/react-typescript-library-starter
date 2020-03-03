@@ -20,3 +20,5 @@ jest.tsconfig.json
 babel.config.js
 /scripts
 images.d.ts
+release.config.js
+commitlint.config.js

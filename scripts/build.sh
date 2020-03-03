@@ -5,6 +5,6 @@ echo "Creating bundles"
 rollup -c scripts/Rollup/rollup.config.js
 echo "Bundles done"
 echo "Move files"
-#cp -a build/. .
+cp -a build/. .
 echo "Delete tmp folder"
-#rm -rf build
+rm -rf build
