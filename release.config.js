@@ -4,11 +4,12 @@ module.exports = {
     "@semantic-release/github",
     "@semantic-release/npm",
     "@semantic-release/release-notes-generator",
-    ["@semantic-release/changelog", {
-      "changelogFile": "CHANGELOG.md",
-    }],
-    ["@semantic-release/git", {
-      "assets": ["CHANGELOG.md"],
-    }],
+    [
+      "semantic-release-slack-bot",
+      {
+        "notifyOnSuccess": true,
+        "notifyOnFail": true
+      }
+    ]
   ]
 };
