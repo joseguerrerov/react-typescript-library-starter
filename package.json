@@ -21,6 +21,7 @@
     "build-storybook": "build-storybook",
     "generate-barrels": "bash ./scripts/generate-barrels.sh",
     "prebuild": "rimraf build",
+    "prepublishOnly": "npm run build",
     "build": "bash ./scripts/build.sh",
     "tslint": "tslint -c tslint.json -p tsconfig.json",
     "dedup": "rm -rf node_modules/@types/react-native",
