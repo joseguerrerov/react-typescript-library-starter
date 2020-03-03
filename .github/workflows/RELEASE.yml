@@ -39,3 +39,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+    - name: Deploy Storybook to Github Pages
+      run: npm run deploy-storybook -- --ci
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
