@@ -17,6 +17,7 @@
   "scripts": {
     "commit": "npx git-cz",
     "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build-storybook": "build-storybook",
     "generate-barrels": "bash ./scripts/generate-barrels.sh",
     "prebuild": "rimraf build",
